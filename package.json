@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "preprocess": "ng build ngx-tailwind-theme-test",
+    "publish": "cd dist/ngx-tailwind-theme-test && npm publish --access public"
   },
   "private": true,
   "dependencies": {
