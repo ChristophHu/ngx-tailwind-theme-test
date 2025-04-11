@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { NgxTailwindThemeTestComponent } from '../../../ngx-tailwind-theme-test/src/public-api';
+// import { NgxTailwindThemeTestComponent } from '../../../ngx-tailwind-theme-test/src/public-api';
+import { NgxTailwindThemeTestComponent } from '@christophhu/ngx-tailwind-theme-test';
 
 @Component({
   selector: 'app-root',

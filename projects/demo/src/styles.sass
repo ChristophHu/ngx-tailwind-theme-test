@@ -2,3 +2,11 @@
 
 @import "tailwindcss"
 
+:root, body[data-theme='dark']
+    --test          : rgb(2, 145, 137)
+
+body[data-theme='light']  
+    --test          : rgb#95a501
+
+@theme
+    --color-test    : var(--test)
